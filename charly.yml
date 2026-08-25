@@ -1,3 +1,4 @@
+version: 2026.232.0520
 k8s-layer:
     candy:
         version: 2026.144.1443
