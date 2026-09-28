@@ -1,5 +1,7 @@
+version: 2026.232.0520
 k8s-layer:
     candy:
+        version: 2026.144.1443
         description: |
             harness-k8s-fixture — fake Kubernetes API surface for harness phase 5
             Stands in for a real k3s cluster. Real k3s cannot run inside the
@@ -17,7 +19,7 @@ k8s-layer:
             `insecure-skip-tls-verify: true` and uses an `http://` server
             URL, which client-go honors.
         require:
-            - '@github.com/opencharly/layer-supervisord:v2026.240.0121'
+            - '@github.com/opencharly/layer-supervisord:v2026.235.2056'
         distro:
             fedora:
                 package:
