@@ -17,7 +17,7 @@ k8s-layer:
             `insecure-skip-tls-verify: true` and uses an `http://` server
             URL, which client-go honors.
         require:
-            - '@github.com/opencharly/layer-supervisord:v2026.235.2056'
+            - '@github.com/opencharly/layer-supervisord:v2026.271.1817'
         distro:
             fedora:
                 package:
